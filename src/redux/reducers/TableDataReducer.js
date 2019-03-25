@@ -60,10 +60,14 @@ const tableDataReducer = function(state = initialState, action) {
             };
         case SAVE_DATA_SUCCESS:
             alert("Data Saved Successfully");
-            break;
+            return {
+                ...state,
+            };
         case SAVE_DATA_FAILURE:
-            alert("Unknown Error while saving the data");
-            break;
+            alert("Unknown Error while saving data");
+            return {
+                ...state,
+            };
         default:
             return state;
     }
