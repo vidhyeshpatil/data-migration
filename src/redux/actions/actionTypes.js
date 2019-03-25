@@ -1,0 +1,23 @@
+/*
+ * Login Action types
+ */
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+
+/*
+ * Table Action types
+ */
+export const SOURCE_TABLE_SUCCESS = "SOURCE_TABLE_SUCCESS";
+
+export const SOURCE_TABLE_FAILURE = "SOURCE_TABLE_FAILURE";
+
+export const DESTINATION_TABLE_SUCCESS = "DESTINATION_TABLE_SUCCESS";
+
+export const DESTINATION_TABLE_FAILURE = "DESTINATION_TABLE_FAILURE";
+
+export const MAP_DATA = "MAP_DATA";
+
+export const SAVE_DATA_SUCCESS = "SAVE_DATA_SUCCESS";
+
+export const SAVE_DATA_FAILURE = "SAVE_DATA_FAILURE";

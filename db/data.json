@@ -1,0 +1,22 @@
+{
+    "login_creds": {
+        "email": "vidhyeshpatil@gmail.com",
+        "password": "123456"
+    },
+    "source_tables": {
+        "users": {
+            "id": ["1", "2", "3"],
+            "first_name": ["Vidhyesh", "Salim", "Fida"],
+            "last_name": ["Patil", "Khan", "Siddiqui"],
+            "date_of_birth": ["28/08/1990", "17/08/1992", "13/05/1992"]
+        }
+    },
+    "destination_tables": {
+        "sf_users": {
+            "sf_id": [],
+            "sf_first_name": [],
+            "sf_last_name": [],
+            "dob": []
+        }
+    }
+}
